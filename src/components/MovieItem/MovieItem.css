@@ -1,0 +1,59 @@
+.movie {
+    margin: 2rem 1rem;
+    width: 300px;
+    position: relative;
+    box-shadow: 11px 11px 27px -1px rgba(0,0,0,0.67);
+    cursor: pointer;
+    overflow: hidden;
+    align-self: stretch;
+    align-content: stretch;
+}
+
+.movie img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.movi-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    height: 80px;
+}
+
+.movi-info span {
+    background-color: #cccccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.movie:hover .movie-overview  {
+    transform: translateY(0%);
+}
+
+.movie-overview {
+    position: absolute;
+    padding: 2rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.movie-overview p {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}

@@ -1,0 +1,38 @@
+.movie-page {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details-container img {
+    width: 350px;
+    padding: 1rem;
+}
+
+.details-container .overview {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+h4 {
+    margin: 2rem 0 3rem 0;
+}
+
+.tag {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: #cccccc;
+    margin: 1rem;
+    font-weight: bold;
+}
